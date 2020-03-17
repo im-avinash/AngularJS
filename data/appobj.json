@@ -1,0 +1,26 @@
+[
+    {
+        "name": "avi",
+        "std": 1,
+        "div": 1,
+        "available": true
+    },
+    {
+        "name": "vik",
+        "std": 2,
+        "div": 3,
+        "available": false
+    },
+    {
+        "name": "raj",
+        "std": 3,
+        "div": 2,
+        "available": false
+    },
+    {
+        "name": "pan",
+        "std": 4,
+        "div": 1,
+        "available": true
+    }
+]

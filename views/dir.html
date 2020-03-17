@@ -1,0 +1,18 @@
+<div>
+    <!-- ngclick -->
+    <button ng-click="order='name'">order by name</button>
+    <p>{{message}}</p>
+    <input type="text" ng-model="search">
+    <ul>
+        <li ng-repeat="x in arrobj | orderBy:order | filter:search" ng-show="x.available">{{x.name}}
+            <i ng-click="removeFun(x)">X</i>
+        </li>
+    </ul>
+    <form ng-submit="addObj()">
+        <input type="text" ng-model="add.name" placeholder="name">
+        <input type="text" ng-model="add.std" placeholder="std">
+        <input type="text" ng-model="add.div" placeholder="div">
+        <input type="text" ng-model="add.available" placeholder="available">
+        <input type="submit" value="Add">
+    </form>
+</div>
